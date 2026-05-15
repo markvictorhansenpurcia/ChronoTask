@@ -145,7 +145,7 @@ void menu() {
 
     while (1) {
 
-        printf("\n===== CHRONOTASK =====\n");
+        printf("\n====== CHRONOTASK ======\n");
 
         printf("1. Add Task\n");
         printf("2. View Tasks\n");
@@ -186,6 +186,7 @@ void menu() {
                 break;
 
             case 7:
+                printf("Thankyou Byebye! Logging Out....\n");
                 return;
 
             default:

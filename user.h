@@ -1,4 +1,3 @@
-#ifndef USER_H
 #define USER_H
 
 #define MAX_USERS 10
@@ -22,5 +21,3 @@ void updateAccount();
 void deleteAccount();
 
 void startSystem();
-
-#endif

@@ -135,13 +135,11 @@ void deleteAccount() {
 }
 
 void startSystem() {
-
     int choice;
 
     while (1) {
 
         printf("\n===== CHRONOTASK =====\n");
-
         printf("1. Create Account\n");
         printf("2. Login\n");
         printf("3. Exit\n");
@@ -162,10 +160,11 @@ void startSystem() {
                 break;
 
             case 3:
-                exit(0);
+                printf("Thankyou Byebye!...\n");
+                return;
 
             default:
-                printf("Invalid.\n");
+                printf("Invalid choice.\n");
         }
     }
 }
